@@ -8,4 +8,6 @@ var n2 = Number(window.prompt("Digite outro número: "))
 
 var soma = n1 + n2
 
+// Para converter para String usamos o String() -> String(var) ou o .toString() -> var.toString().
+
 window.alert("A soma dos valores é: " + soma)
