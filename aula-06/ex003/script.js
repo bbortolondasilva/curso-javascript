@@ -10,4 +10,5 @@ var soma = n1 + n2
 
 // Para converter para String usamos o String() -> String(var) ou o .toString() -> var.toString().
 
-window.alert("A soma dos valores é: " + soma)
+window.alert(`A soma dos valores é: ${soma}`)
+// Para formatar strings como as fStrings do python, primeiro, substituímos as " " por ` ` (Crases), e colocamos o valor que queremos mostrar dentro de "${ }".
