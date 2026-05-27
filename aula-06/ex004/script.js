@@ -15,3 +15,5 @@ document.write(`<h2>Seu nome em minúsculo ${nome.toLowerCase()}</h2>`)
 // Para mudar caracteres dentro de uma string usamos .replace(caracter que queremos mudar, caracter que queremos pôr no lugar);
 
 // Para fazer formatações como a de dinheiro no formato pt-BR usamos .toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}).
+
+// Operador ternário: "teste ? consdição se verdadeiro : condição se falso"
