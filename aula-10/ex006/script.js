@@ -16,4 +16,4 @@ function sair() {
 
 a.addEventListener("click", clicar)
 a.addEventListener("mouseenter", entrar)
-a.addEventListener("mouseleave", sair)
+a.addEventListener("mouseout", sair)
