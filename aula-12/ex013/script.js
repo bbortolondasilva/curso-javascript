@@ -14,37 +14,37 @@ var dia = new Date().getDay()
 
 switch (dia) {
     case 0: 
-        console.log("Segunda")
+        console.log("Domingo")
         // Break é obrigatório dentro de cada case para parar a execução quando chegar ao final do bloco de código do case.
         break
 
     case 1: 
-        console.log("Terça")
+        console.log("Segunda")
         // Break é obrigatório dentro de cada case para parar a execução quando chegar ao final do bloco de código do case.
         break
 
     case 2: 
-        console.log("Quarta")
+        console.log("Terça")
         // Break é obrigatório dentro de cada case para parar a execução quando chegar ao final do bloco de código do case.
         break
 
     case 3: 
-        console.log("Quinta")
+        console.log("Quarta")
         // Break é obrigatório dentro de cada case para parar a execução quando chegar ao final do bloco de código do case.
         break
 
     case 4: 
-        console.log("Sexta")
+        console.log("Quinta")
         // Break é obrigatório dentro de cada case para parar a execução quando chegar ao final do bloco de código do case.
         break
 
     case 5: 
-        console.log("Sábado")
+        console.log("Sexta")
         // Break é obrigatório dentro de cada case para parar a execução quando chegar ao final do bloco de código do case.
         break
 
     case 6: 
-        console.log("Domingo")
+        console.log("Sábado")
         // Break é obrigatório dentro de cada case para parar a execução quando chegar ao final do bloco de código do case.
         break
 }
