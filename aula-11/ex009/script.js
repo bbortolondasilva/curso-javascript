@@ -1,5 +1,5 @@
 function identificar() {
-    var nac = document.querySelector("input#ivelocidade").value
+    var nac = document.querySelector("input#inac").value
     var res = document.querySelector("div#res")
 
     if (nac == "Brasileiro") {
