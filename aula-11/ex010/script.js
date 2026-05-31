@@ -1,6 +1,8 @@
-var vel = 60.5
+function calcular() {
+    var txtv = Number(document.querySelector("input#ivelocidade"))
+    var res = document.querySelector("div#res")
 
-if (vel > 60) {
-    console.log("Você está dirigindo acima da velocidade permitida!")
-    console.log("Multa concedida.")
+    res.innerHTML = `<p>Sua velocidade atual é de <strong>${txtv}</strong></p>`
+
+    res.innerHTML += `<p>Dirija sempre com cinto de segurança!</p>`
 }
