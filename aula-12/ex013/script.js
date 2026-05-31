@@ -1,11 +1,11 @@
-var hora = new Date().getHours()
+var hora = new Date().getDay()
 
-console.log(`Agora são exatamente ${hora} horas.`)
-
-if (hora < 12) {
-    console.log("Bom dia!")
-} else if (hora <= 18) {
-    console.log("Boa tarde!")
-} else {
-    console.log("Boa noite!")
-}
+/* 
+    Domingo
+    Segunda
+    Terça
+    Quarta
+    Quinta
+    Sexta
+    Sábado
+*/
