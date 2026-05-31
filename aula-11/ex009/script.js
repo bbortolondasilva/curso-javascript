@@ -1,12 +1,14 @@
 function calcular() {
-    var txtv = Number(document.querySelector("input#ivelocidade").value)
+    var nac = document.querySelector("input#ivelocidade").value
     var res = document.querySelector("div#res")
 
-    res.innerHTML = `<p>Sua velocidade atual é de <strong>${txtv} Km/h</strong></p>`
+    if (nac == "Brasileiro") {
+        res.innerHTML = `<p>Sua nacionalidade é: <strong>${nac}</strong></p>`
 
-    if (txtv > 60) {
-        res.innerHTML += `<p>Você está <strong>multado</strong> por excesso de velocidade!</p>`
+        res.innerHTML += `Idioma configurado: Português-Brasil</p>`
+    } else {
+        res.innerHTML = `<p>Your nationality is: <strong>${nac}</strong></p>`
+
+        res.innerHTML += `Language set: English`
     }
-
-    res.innerHTML += `<p>Dirija sempre com cinto de segurança!</p>`
 }
