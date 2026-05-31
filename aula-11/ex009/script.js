@@ -1,4 +1,4 @@
-function calcular() {
+function identificar() {
     var nac = document.querySelector("input#ivelocidade").value
     var res = document.querySelector("div#res")
 
