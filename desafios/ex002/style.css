@@ -29,6 +29,18 @@ section {
     text-align: center;
 }
 
+#foto {
+    background-color: red;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    height: 200px;
+    margin: auto;
+    margin-top: 15px;
+    background-image: url("imagens/pexels-ferhat-kocakaya-218644751-27212248.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
 footer {
     text-align: center;
     color: white;
