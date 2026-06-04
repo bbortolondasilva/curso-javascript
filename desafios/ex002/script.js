@@ -17,32 +17,32 @@ function verificar() {
 
             if (idade >= 0 && idade < 10) {
                 //criança
-                img.style.backgroundImage = `url(imagens/)`
+                img.style.backgroundImage = `url(imagens/bebe-homem)`
             } else if (idade < 21) {
                 // joven
-                img.style.backgroundImage = `url(imagens/)`
+                img.style.backgroundImage = `url(imagens/jovem-homem)`
             } else if (idade < 50) {
                 // adulto
-                img.style.backgroundImage = `url(imagens/)`
+                img.style.backgroundImage = `url(imagens/homem)`
             } else {
                 // idoso
-                img.style.backgroundImage = `url(imagens/)`
+                img.style.backgroundImage = `url(imagens/idoso)`
             }
         } else {
             genero = "Mulher"
 
             if (idade >= 0 && idade < 10) {
                 //criança
-                img.style.backgroundImage = `url(imagens/)`
+                img.style.backgroundImage = `url(imagens/bebe-mulher)`
             } else if (idade < 21) {
                 // joven
-                img.style.backgroundImage = `url(imagens/)`
+                img.style.backgroundImage = `url(imagens/jovem-mulher)`
             } else if (idade < 50) {
                 // adulto
-                img.style.backgroundImage = `url(imagens/)`
+                img.style.backgroundImage = `url(imagens/mulher)`
             } else {
                 // idoso
-                img.style.backgroundImage = `url(imagens/)`
+                img.style.backgroundImage = `url(imagens/idosa)`
             }
         }
 
