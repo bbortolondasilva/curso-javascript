@@ -17,24 +17,32 @@ function verificar() {
 
             if (idade >= 0 && idade < 10) {
                 //criança
+                img.style.backgroundImage = `url(imagens/)`
             } else if (idade < 21) {
                 // joven
+                img.style.backgroundImage = `url(imagens/)`
             } else if (idade < 50) {
                 // adulto
+                img.style.backgroundImage = `url(imagens/)`
             } else {
                 // idoso
+                img.style.backgroundImage = `url(imagens/)`
             }
         } else {
             genero = "Mulher"
 
             if (idade >= 0 && idade < 10) {
                 //criança
+                img.style.backgroundImage = `url(imagens/)`
             } else if (idade < 21) {
                 // joven
+                img.style.backgroundImage = `url(imagens/)`
             } else if (idade < 50) {
                 // adulto
+                img.style.backgroundImage = `url(imagens/)`
             } else {
                 // idoso
+                img.style.backgroundImage = `url(imagens/)`
             }
         }
 
