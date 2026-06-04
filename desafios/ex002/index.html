@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                <label for="iano">Ano de nascimento:</label>
+                <input type="number" name="textano" id="iano" required min="0">
+            </p>
+
+            <p>
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Ano de nascimento</label>
+
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Ano de nascimento</label>
+            </p>
+
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div>
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+
+    <footer>&copy; Curso em Vídeo</footer>
     
     <script src="script.css"></script>
 </body>
