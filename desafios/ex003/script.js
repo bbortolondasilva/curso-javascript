@@ -6,11 +6,11 @@ function getDados() {
     }
 }
 
-function contar(inicio, fim, passo) {
+function contar(dados) {
     var res = document.getElementById("res")
 
-    for (inicio; inicio <= fim; passo) {
-        res += `${inicio} 👉 `
+    for (dados.inicio; dados.inicio <= dados.fim; dados.passo) {
+        res += `${dados.inicio} 👉 `
     }
 }
 
@@ -19,3 +19,4 @@ function mostraDados(dados) {
 }
 
 document.getElementById("btn").addEventListener("click", getDados)
+document.getElementById("btn").addEventListener("click", contar(getDados()))
