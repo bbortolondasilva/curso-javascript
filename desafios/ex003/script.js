@@ -1,11 +1,21 @@
 function getDados() {
-    var inicio = Number(document.getElementById("iini").value)
-    var fim = Number(document.querySelector("input#ifim").value)
-    var passo = Number(document.querySelector("input#ipas").value)
-
-    console.log(inicio)
-    console.log(fim)
-    console.log(passo)
+    return {
+        inicio: Number(document.getElementById("iini").value),
+        fim: Number(document.querySelector("input#ifim").value),
+        passo: Number(document.querySelector("input#ipas").value),
+    }
 }
 
-document.getElementById("btn").addEventListener("click", getDados, mostraConsole)
+function contar(inicio, fim, passo) {
+    var res = document.getElementById("res")
+
+    for (inicio; inicio <= fim; passo) {
+        res += `${inicio} 👉 `
+    }
+}
+
+function mostraDados(dados) {
+
+}
+
+document.getElementById("btn").addEventListener("click", getDados)
