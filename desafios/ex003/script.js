@@ -1,12 +1,8 @@
 function getDados() {
-    var inicio = document.getElementById("iini").value
-    var fim = document.querySelector("input#ifim").value
-    var passo = document.querySelector("input#ipas").value
+    var inicio = Number(document.getElementById("iini").value)
+    var fim = Number(document.querySelector("input#ifim").value)
+    var passo = Number(document.querySelector("input#ipas").value)
 
-    return
-}
-
-function mostraConsole() {
     console.log(inicio)
     console.log(fim)
     console.log(passo)
