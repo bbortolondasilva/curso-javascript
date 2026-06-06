@@ -23,3 +23,7 @@ console.log(`O vetor em ordem crescente fica ${num}\n`)
 for (var c = 0; c < num.length; c++) {
     console.log(`- Posição ${c+1}: ${num[c]}`)
 }
+
+let pos = num.indexOf(8) // Retorna o índice do valor passado nos parênteses. Caso ele não esteja no vetor, retorna -1 como índice.
+
+console.log(pos)
