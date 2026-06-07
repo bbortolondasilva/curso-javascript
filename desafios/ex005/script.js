@@ -24,6 +24,11 @@ function adicionar() {
     if (isNum(num.value) && !inLista(num.value, valores)) {
         valores.push(Number(num.value))
         // console.log(valores)
+
+        let item = document.createElement("option")
+        item.text = `Valor ${num.value} adicionado.`
+
+        tab.appendChild(item)
     } else {
         window.alert("Valor inválido ou já encontrado na lista!")
     }
