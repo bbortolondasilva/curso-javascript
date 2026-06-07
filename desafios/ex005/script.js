@@ -32,7 +32,44 @@ function adicionar() {
     } else {
         window.alert("Valor inválido ou já encontrado na lista!")
     }
+
+    res.innerHTML = ""
+    num.value = ""
+    num.focus() // foca automaticamente no elemento selecionado.
+}
+
+function finalizar() {
+    if (valores.length == 0) {
+        window.alert("Adicione valores antes de finalizar!")
+    } else {
+        let tot = valores.length
+        let max = valores[0]
+        let min = valores[0]
+        let soma = 0
+        let media = 0
+
+        for (let pos in valores) {
+            soma += valores[pos]
+
+            if (valores[pos] > max) {
+                max = valores[pos]
+            } 
+
+            if (valores[pos] < min) {
+                min = valores[pos]
+            }
+        }
+
+        media = soma / (valores.length)
+
+        res.innerHTML = ""
+        res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p>`
+        res.innerHTML += `<p>O maior valor informado foi ${max}</p>`
+        res.innerHTML += `<p>O menor valor informado foi ${min}</p>`
+        res.innerHTML += `<p>A soma de todos os valores é ${soma}</p>`
+        res.innerHTML += `<p>A média de todos os valores é ${media}</p>`
+    }
 }
 
 document.getElementById("btn-add").addEventListener("click", adicionar)
-// document.getElementById("btn-fin").addEventListener("click", )
+document.getElementById("btn-fin").addEventListener("click", finalizar)
