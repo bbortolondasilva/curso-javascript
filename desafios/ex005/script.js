@@ -60,14 +60,14 @@ function finalizar() {
             }
         }
 
-        media = soma / (valores.length)
+        media = soma / (tot)
 
         res.innerHTML = ""
         res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p>`
         res.innerHTML += `<p>O maior valor informado foi ${max}</p>`
         res.innerHTML += `<p>O menor valor informado foi ${min}</p>`
         res.innerHTML += `<p>A soma de todos os valores é ${soma}</p>`
-        res.innerHTML += `<p>A média de todos os valores é ${media}</p>`
+        res.innerHTML += `<p>A média de todos os valores é ${media.toFixed(2)}</p>`
     }
 }
 
